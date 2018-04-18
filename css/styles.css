@@ -124,9 +124,12 @@ p {
     margin: 11px;
 }
 
+.logos div{
+    text-align: center;
+}
+
 .logos a {
-    display: block;
-    width: 100px;
+    display: inline-block;
     margin: auto;
     text-decoration: none;
     border-radius: 10px;
