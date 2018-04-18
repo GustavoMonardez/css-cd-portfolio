@@ -93,3 +93,26 @@ p {
 .mode, .family{
     margin-right: 20px;
 }
+
+.logos{
+    height:160px;
+}
+
+.logos img{
+    width:35px;
+    height:35px;
+    margin:11px;
+}
+.logos a{
+    display: block;
+    width:100px;
+    margin:auto;
+    text-decoration:none;
+    border-radius: 10px;
+    background-color: rgb(35, 71, 35);
+    text-align: center;
+    padding: 5px;
+    color:white;
+    border:1px solid black;
+    box-shadow: 3px 4px 5px #888888;
+}
