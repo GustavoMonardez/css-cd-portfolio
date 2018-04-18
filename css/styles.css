@@ -2,7 +2,6 @@
     padding: 0px;
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
 }
 
 .wrapper {
@@ -21,6 +20,7 @@
     width: 500px;
     text-align: right;
     font-weight: bold;
+    font-size:12px;
 }
 
 .main-content {
@@ -54,6 +54,19 @@
     /* IE6-9 */
 }
 
+.tan-gradient {
+    background: #ffffff;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #ffffff 0%, #cec5c4 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ffffff 0%, #cec5c4 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #ffffff 0%, #cec5c4 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cec5c4', GradientType=1);
+    /* IE6-9 */
+}
+
 .pic-of-me {
     width: 431px;
     height: 276px;
@@ -66,7 +79,11 @@
     width: 505px;
     height: 286px;
     vertical-align: top;
-    background-color: white;
+}
+
+.about a{
+    margin-left:10px;
+    color:black;
 }
 
 h2 {
@@ -77,42 +94,64 @@ h2 {
 p {
     margin: 10px;
 }
-.work{
-    margin-top:20px;
+
+.work {
+    margin-top: 20px;
 }
-.work div{
-    display:inline-block;
+
+.work div {
+    display: inline-block;
     width: 307px;
-    background-color: white;
+   
     vertical-align: top;
 }
-.work img{
-    width:307px;
-    height:200px;
+
+.work img {
+    width: 307px;
+    height: 200px;
 }
-.mode, .family{
+
+.mode, .family {
     margin-right: 20px;
 }
 
-.logos{
-    height:160px;
+.logos {
+    height: 160px;
 }
 
-.logos img{
-    width:35px;
-    height:35px;
-    margin:11px;
+.logos img {
+    width: 35px;
+    height: 35px;
+    margin: 11px;
 }
-.logos a{
+
+.logos a {
     display: block;
-    width:100px;
-    margin:auto;
-    text-decoration:none;
+    width: 100px;
+    margin: auto;
+    text-decoration: none;
     border-radius: 10px;
     background-color: rgb(35, 71, 35);
     text-align: center;
     padding: 5px;
-    color:white;
-    border:1px solid black;
+    color: white;
+    border: 1px solid black;
     box-shadow: 3px 4px 5px #888888;
+}
+
+.footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    padding: 2px;
+}
+
+.footer a {
+    display: inline-block;
+    color: black;
 }
