@@ -20,7 +20,7 @@
     width: 500px;
     text-align: right;
     font-weight: bold;
-    font-size:12px;
+    font-size: 12px;
 }
 
 .main-content {
@@ -81,9 +81,9 @@
     vertical-align: top;
 }
 
-.about a{
-    margin-left:10px;
-    color:black;
+.about a {
+    margin-left: 10px;
+    color: black;
 }
 
 h2 {
@@ -102,7 +102,6 @@ p {
 .work div {
     display: inline-block;
     width: 307px;
-   
     vertical-align: top;
 }
 
